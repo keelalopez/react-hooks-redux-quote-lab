@@ -48,7 +48,7 @@ function QuoteForm() {
         <div className="col-md-8 col-md-offset-2">
           <div className="panel panel-default">
             <div className="panel-body">
-              <form className="form-horizontal">
+              <form className="form-horizontal" onSubmit={handleSubmit}>
                 <div className="form-group">
                   <label htmlFor="content" className="col-md-4 control-label">
                     Quote
